@@ -7,10 +7,15 @@ app.get('/ping', (c) => {
 
   return c.json({pong:"Hello World!"})
   })
-app.get('/platform', (c) => {
 
+app.get('/platform', (c) => {
   return c.json({platform:process.platform})
   
+})
+
+app.get('/college', (c) => {
+  return c.json({college:"SIT"})
+
 })
 
 serve(app)
