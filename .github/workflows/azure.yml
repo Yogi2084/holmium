@@ -7,14 +7,14 @@ on:
 
 env:
   AZURE_REGION: centralindia
-  RESOURCE_GROUP: Holmium
+  RESOURCE_GROUP: holmium
   CONTAINER_APPS_ENVIRONMENT: holmium-env
   LOG_ANALYTICS_WORKSPACE: holmium-law
-  ACR_REGISTRY: holmium1si16cs060.azurecr.io
+  ACR_REGISTRY: holmium1si22is405.azurecr.io
   ACR_REPOSITORY_NAME: holmium
   CONTAINER_APP_NAME: holmium
   TARGET_PORT: 3000
-  SUBSCRIPTION_ID: 480bb9b7-b15c-40cc-a96a-9d221c425df3
+  SUBSCRIPTION_ID: 0ab858b3-0f1d-4f40-945b-457ec21c6d38
 
 jobs:
   build-and-deploy:
